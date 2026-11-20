@@ -1,0 +1,11 @@
+{
+  "title": "ST-GCN-LSTM daily crime count prediction for Chicago census tracts",
+  "description": "Notebook and recorded results for daily crime count regression across 878 Chicago census tracts. The ST-GCN-LSTM model combines a graph attention network over a k-nearest-neighbour tract graph with a bidirectional LSTM, and is compared with GCN, LSTM, CNN and CNN+LSTM baselines.",
+  "creators": [{"name": "Azeez, Sodiq Olatunji"}],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.1",
+  "language": "eng",
+  "keywords": ["crime prediction", "spatio-temporal graph neural network", "graph attention network", "LSTM", "census tracts", "Chicago", "PyTorch Geometric"]
+}
