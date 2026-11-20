@@ -1,0 +1,30 @@
+# Data: the crime CSV, tract files and anything the notebook writes to data/
+data/
+*.csv
+*.geojson
+*.parquet
+*.shp
+*.gpkg
+
+# Model checkpoints and outputs written by the notebook
+models/
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# Python and notebook caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
